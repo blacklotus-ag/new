@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Terms & Conditions - Dans</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <div class="navigation">
+      <div class="nav-center container d-flex">
+        <a href="index.html" class="logo"><h1>Dans</h1></a>
+
+        <ul class="nav-list d-flex">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="product.html" class="nav-link">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a href="terms.html" class="nav-link">Terms</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+
+        <div class="icons d-flex">
+          <a href="login.html" class="icon">
+            <i class="bx bx-user"></i>
+          </a>
+          <div class="icon">
+            <i class="bx bx-search"></i>
+          </div>
+          <div class="icon">
+            <i class="bx bx-heart"></i>
+            <span class="d-flex">0</span>
+          </div>
+          <a href="cart.html" class="icon">
+            <i class="bx bx-cart"></i>
+            <span class="d-flex">0</span>
+          </a>
+        </div>
+
+        <div class="hamburger">
+          <i class="bx bx-menu-alt-left"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- Terms Section -->
+    <section class="section">
+        <div class="container">
+            <div class="title">
+                <h1>Terms & Conditions</h1>
+            </div>
+            <div class="content-page-container">
+                <h2>1. Introduction</h2>
+                <p>Welcome to Dans. These are the terms and conditions governing your access to and use of the website Dans and its related sub-domains, sites, services and tools. By accepting these terms and conditions, you agree to comply with all of the terms and conditions below.</p>
+                
+                <h2>2. User Account</h2>
+                <p>To access certain services, you may be required to create an account. You are responsible for maintaining the confidentiality of your account and password and for restricting access to your computer.</p>
+
+                <h2>3. Privacy</h2>
+                <p>We do not sell or rent your personal information to third parties for their marketing purposes without your explicit consent. We use your information only as described in the Dans Privacy Policy.</p>
+
+                <h2>4. Shipping Guide</h2>
+                <p>We offer standard and express shipping. Standard shipping takes 5-7 business days, while express shipping takes 1-3 business days. All orders are processed within 24 hours. For more details, please refer to our FAQ page.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search Overlay -->
+    <div class="search-overlay">
+      <span class="search-overlay-close">&times;</span>
+      <form action="#">
+        <input type="text" placeholder="Search...">
+      </form>
+    </div>
+
+    <!-- Wishlist Popup -->
+    <div class="wishlist-overlay">
+        <div class="wishlist-header">
+            <h2>Your Wishlist</h2>
+            <span class="wishlist-overlay-close">&times;</span>
+        </div>
+        <div class="wishlist-content">
+            <!-- Liked items will be rendered here by JavaScript -->
+        </div>
+    </div>
+    <script src="./js/like.js"></script>
+    <script src="./js/cart.js"></script>
+    <script src="./js/search.js"></script>
+    <script src="./js/wishlist.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
